@@ -1,0 +1,10 @@
+<launch>
+  <arg name="static" default="false" />
+
+  <node name="controller_node" pkg="controller_pkg" type="controller_node"/>
+  <node name="traj_publisher" pkg="controller_pkg" type="traj_publisher"/>
+  <node name="planning_node" pkg="planning" type="planning_node" output = "screen"/>
+  
+  
+</launch>
+
