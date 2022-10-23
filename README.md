@@ -13,7 +13,7 @@ Welcome to our repository  for AutonomousQuadruped. Here you will find out how t
 3. Then build the project, run `catkin build`. The first build may take a few minutes, as the unity files needed for the project will be downloaded automatically and you **don't** need to download and move them to the specified folder manually. 
 4. You'll need 2 terminals to launch all the nodes. Remember to source the environment when you launch a new terminal. 
     ```
-    source/devel/setup.bash
+    source devel/setup.bash
     ```
 
     - In first terminal, execute  
